@@ -21,5 +21,12 @@ cd "${BIOS_UPDATE_FILE}_decompressed.hdr.extracted"
 PAYLOAD_FILE="$(pwd)/$(echo *.payload)"
 
 
+echo "#####################"
+echo "#####################"
+echo "#####################"
+echo "Please adjust the path to your VBiosFinder installation otherwise the following will fail:"
+echo "#####################"
+echo "#####################"
+echo "#####################"
 cd /home/fedora/Projects/misc/VBiosFinder
 ./vbiosfinder extract "$PAYLOAD_FILE"
