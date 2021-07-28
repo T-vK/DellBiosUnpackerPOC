@@ -3,7 +3,10 @@
 BIOS_UPDATE_FILE="$1"
 
 # Unpack the HDR from the EXE
-python2 ./hdr-unpack.py "$BIOS_UPDATE_FILE"
+#python2 ./hdr-unpack.py "$BIOS_UPDATE_FILE"
+
+gem install zlib hex_string
+ruby ./hdr-unpack.py "$BIOS_UPDATE_FILE"
 
 # Build PFSExtractor
 git clone https://github.com/LongSoft/PFSExtractor.git

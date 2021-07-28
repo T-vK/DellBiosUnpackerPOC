@@ -14,3 +14,7 @@ Requires `bash`, `git`, `python2`, `make`, `cmake` (and `vbiosfinder` in order t
 
 I tested this using Linux (Fedeora 34 x64).  
 I used this BIOS Update (for the XPS 15 9575 2-in-1): [https://dl.dell.com/FOLDER07188382M/1/XPS_15_9575_2-in-1_1.15.1.exe](https://dl.dell.com/FOLDER07188382M/1/XPS_15_9575_2-in-1_1.15.1.exe)
+
+
+## Ruby port
+`hdr-unpack.rb` unpack is a port of `hdr-unpack.py`, you can use either one in unpack.sh. They produce the same result.
