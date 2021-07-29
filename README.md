@@ -8,7 +8,7 @@ cd DellBiosUnpackerPOC
 
 ## Requirements
 
-Requires `bash`, `git`, `python2`, `make`, `cmake` (and `vbiosfinder` in order to extract the vBIOS ROMs from the extracted BIOS files)
+Requires `bash`, `git`, [`ruby` or `python2`], `make`, `cmake` (and `vbiosfinder` in order to extract the vBIOS ROMs from the extracted BIOS files)
 
 ## Test system
 
