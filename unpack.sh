@@ -6,7 +6,7 @@ BIOS_UPDATE_FILE="$1"
 #python2 ./hdr-unpack.py "$BIOS_UPDATE_FILE"
 
 gem install zlib hex_string
-ruby ./hdr-unpack.py "$BIOS_UPDATE_FILE"
+ruby ./hdr-unpack.rb "$BIOS_UPDATE_FILE"
 
 # Build PFSExtractor
 git clone https://github.com/LongSoft/PFSExtractor.git
